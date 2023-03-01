@@ -18,9 +18,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh 'chmod +x ./jenkins/scripts/test.sh'
-        sh '''
-./jenkins/scripts/test.sh'''
+        sh 'npm test'
       }
     }
 
