@@ -1,0 +1,3 @@
+# fichero borrar-usuario.ldif
+dn: uid=dveranom,ou=alumnos,dc=iesalixar,dc=org
+changetype: delete

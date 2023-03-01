@@ -1,0 +1,5 @@
+# fichero insertar-ou-alumnos.ldif
+dn: ou=alumnos,dc=iesalixar,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: alumnos

@@ -1,0 +1,10 @@
+# fichero insertar-usuario.ldif
+dn: uid=alum.dveranom,ou=alumnos,dc=iesalixar,dc=org
+uid: alum.dveranom
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Daniel Verano Moreno
+sn: Verano
+userPassword: prueba
